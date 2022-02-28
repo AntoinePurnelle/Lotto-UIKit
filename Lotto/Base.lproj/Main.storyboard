@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nzb-2K-qxG">
-                                <rect key="frame" x="-280" y="376" width="974" height="144"/>
+                                <rect key="frame" x="-281" y="376" width="976" height="144"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Av5-Va-t8c">
-                                        <rect key="frame" x="315.5" y="0.0" width="343" height="48"/>
+                                        <rect key="frame" x="316.5" y="0.0" width="343" height="48"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6m4-BX-hSr">
                                                 <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
@@ -91,7 +91,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="fi0-TI-o6Z">
-                                        <rect key="frame" x="458" y="48" width="57.5" height="48"/>
+                                        <rect key="frame" x="459" y="48" width="57.5" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Draw"/>
@@ -100,7 +100,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="dAZ-iQ-3B0">
-                                        <rect key="frame" x="456" y="96" width="61" height="48"/>
+                                        <rect key="frame" x="457" y="96" width="61" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Reset"/>

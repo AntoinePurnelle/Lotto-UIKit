@@ -10,8 +10,8 @@ import Foundation
 
 struct ViewModel {
     
-    var numbers = Array(1...32)
-    var drawnNumbers : [Int] = Array()
+    public private(set) var numbers = Array(1...32)
+    public private(set) var drawnNumbers : [Int] = Array()
     
     mutating func drawNumber() {
         drawnNumbers.append(numbers.remove(at: Int.random(in: 0..<numbers.count)))
